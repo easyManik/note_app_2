@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+app-root {
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.note-item {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.note-title {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.note-body {
+  font-size: 1em;
+}
+
+.note-form {
+  margin-bottom: 24px;
+}
+
+.note-form input,
+.note-form textarea,
+.note-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.note-form textarea {
+  resize: vertical;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+}
