@@ -1,0 +1,19 @@
+{
+    "scripts": {
+        "start-dev": "webpack serve --config webpack.dev.js",
+        "build": "webpack --config webpack.prod.js"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.25.4",
+        "babel-loader": "^8.x.x",
+        "css-loader": "^6.11.0",
+        "css-minimizer-webpack-plugin": "^4.x.x",
+        "html-webpack-plugin": "^5.x.x",
+        "style-loader": "^3.3.4",
+        "terser-webpack-plugin": "^5.x.x",
+        "webpack": "^5.x.x",
+        "webpack-cli": "^4.x.x",
+        "webpack-dev-server": "^4.x.x",
+        "webpack-merge": "^5.x.x"
+    }
+}
