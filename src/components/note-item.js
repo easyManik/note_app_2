@@ -12,7 +12,7 @@ class NoteItem extends HTMLElement {
         this.shadowRoot.querySelector("h3").textContent = title;
         this.shadowRoot.querySelector("p").textContent = body;
 
-        const deleteButton = this.shadowRoot.querySelector("#delete-btn");
+        const deleteButton = this.shadowRoot.querySelector("#delete-button");
         if (deleteButton) {
             deleteButton.addEventListener("click", this.handleDelete.bind(this));
         }
@@ -23,7 +23,7 @@ class NoteItem extends HTMLElement {
             <div class="note-item">
                 <h3></h3>
                 <p></p>
-                <button id="delete-btn">Delete</button>
+                <button id="delete-button">Delete</button>
             </div>
         `;
     }
